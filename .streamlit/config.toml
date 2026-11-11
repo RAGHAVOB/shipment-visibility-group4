@@ -1,0 +1,13 @@
+[global]
+developmentMode = false
+
+[theme]
+base = "light"
+primaryColor = "#08786b"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#edf3f5"
+textColor = "#182a37"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
