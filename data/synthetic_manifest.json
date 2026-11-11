@@ -1,0 +1,70 @@
+{
+  "disclosure": "Entirely synthetic academic dataset, no DHL shipment data",
+  "simulation_clock": "2026-11-11T10:00:00.000Z",
+  "shipments": [
+    {
+      "id": "SHP-1001",
+      "tenant": "Retail Alpha",
+      "origin": "Mumbai",
+      "destination": "Pune",
+      "due_at": "2026-11-11T12:00:00.000Z",
+      "source": "Warehouse W1"
+    },
+    {
+      "id": "SHP-1002",
+      "tenant": "Retail Alpha",
+      "origin": "Delhi",
+      "destination": "Jaipur",
+      "due_at": "2026-11-11T11:05:00.000Z",
+      "source": "Carrier A"
+    },
+    {
+      "id": "SHP-1003",
+      "tenant": "Retail Alpha",
+      "origin": "Bengaluru",
+      "destination": "Chennai",
+      "due_at": "2026-11-11T09:20:00.000Z",
+      "source": "Customer POD"
+    },
+    {
+      "id": "SHP-1004",
+      "tenant": "Retail Alpha",
+      "origin": "Ahmedabad",
+      "destination": "Surat",
+      "due_at": "2026-11-11T10:30:00.000Z",
+      "source": "Carrier A"
+    },
+    {
+      "id": "SHP-1005",
+      "tenant": "Retail Alpha",
+      "origin": "Hyderabad",
+      "destination": "Vijayawada",
+      "due_at": "2026-11-11T13:00:00.000Z",
+      "source": "Supplier S1"
+    },
+    {
+      "id": "SHP-1006",
+      "tenant": "Retail Alpha",
+      "origin": "Mumbai",
+      "destination": "Nashik",
+      "due_at": "2026-11-11T09:40:00.000Z",
+      "source": "Carrier A"
+    },
+    {
+      "id": "SHP-2001",
+      "tenant": "Industrial Beta",
+      "origin": "Chennai",
+      "destination": "Coimbatore",
+      "due_at": "2026-11-11T11:00:00.000Z",
+      "source": "Warehouse W1"
+    },
+    {
+      "id": "SHP-2002",
+      "tenant": "Industrial Beta",
+      "origin": "Pune",
+      "destination": "Nagpur",
+      "due_at": "2026-11-11T09:50:00.000Z",
+      "source": "Carrier A"
+    }
+  ]
+}

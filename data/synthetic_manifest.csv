@@ -1,0 +1,9 @@
+id,tenant,origin,destination,due_at,source
+"SHP-1001","Retail Alpha","Mumbai","Pune","2026-11-11T12:00:00.000Z","Warehouse W1"
+"SHP-1002","Retail Alpha","Delhi","Jaipur","2026-11-11T11:05:00.000Z","Carrier A"
+"SHP-1003","Retail Alpha","Bengaluru","Chennai","2026-11-11T09:20:00.000Z","Customer POD"
+"SHP-1004","Retail Alpha","Ahmedabad","Surat","2026-11-11T10:30:00.000Z","Carrier A"
+"SHP-1005","Retail Alpha","Hyderabad","Vijayawada","2026-11-11T13:00:00.000Z","Supplier S1"
+"SHP-1006","Retail Alpha","Mumbai","Nashik","2026-11-11T09:40:00.000Z","Carrier A"
+"SHP-2001","Industrial Beta","Chennai","Coimbatore","2026-11-11T11:00:00.000Z","Warehouse W1"
+"SHP-2002","Industrial Beta","Pune","Nagpur","2026-11-11T09:50:00.000Z","Carrier A"

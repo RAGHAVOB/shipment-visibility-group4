@@ -1,0 +1,42 @@
+[
+  {
+    "source_id": "SOURCE-1",
+    "source_name": "Carrier A",
+    "synthetic": true,
+    "role": "carrier transport scans",
+    "interface": "REST webhook via API adapter",
+    "heartbeat_at": "2026-11-11T09:58:00.000Z",
+    "initial_state": "CONNECTED",
+    "production_contract": "Illustrative only; partner access rights and service terms require validation"
+  },
+  {
+    "source_id": "SOURCE-2",
+    "source_name": "Warehouse W1",
+    "synthetic": true,
+    "role": "warehouse receipt and dispatch scans",
+    "interface": "warehouse event adapter",
+    "heartbeat_at": "2026-11-11T09:58:00.000Z",
+    "initial_state": "CONNECTED",
+    "production_contract": "Illustrative only; partner access rights and service terms require validation"
+  },
+  {
+    "source_id": "SOURCE-3",
+    "source_name": "Supplier S1",
+    "synthetic": true,
+    "role": "supplier pickup and dispatch events",
+    "interface": "batch/API adapter",
+    "heartbeat_at": "2026-11-11T09:58:00.000Z",
+    "initial_state": "CONNECTED",
+    "production_contract": "Illustrative only; partner access rights and service terms require validation"
+  },
+  {
+    "source_id": "SOURCE-4",
+    "source_name": "Customer POD",
+    "synthetic": true,
+    "role": "customer proof of delivery",
+    "interface": "POD status API adapter",
+    "heartbeat_at": "2026-11-11T09:58:00.000Z",
+    "initial_state": "CONNECTED",
+    "production_contract": "Illustrative only; partner access rights and service terms require validation"
+  }
+]

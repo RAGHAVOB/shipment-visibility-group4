@@ -1,0 +1,50 @@
+{
+  "disclosure": "Computed from supplied synthetic seed events, not measured operational performance",
+  "simulation_clock": "2026-11-11T10:00:00.000Z",
+  "seed_totals": {
+    "shipments": 8,
+    "events": 17,
+    "accepted_events": 17,
+    "local_outbox_records": 17
+  },
+  "by_tenant": {
+    "Retail Alpha": {
+      "shipments": 6,
+      "delivered": 1,
+      "stale": 3,
+      "open": 5,
+      "sourceLagP95": 300,
+      "platformLagP95": 7,
+      "freshnessP95": 70,
+      "accepted": 13,
+      "duplicates": 0,
+      "quarantine": 0
+    },
+    "Industrial Beta": {
+      "shipments": 2,
+      "delivered": 0,
+      "stale": 0,
+      "open": 1,
+      "sourceLagP95": 60,
+      "platformLagP95": 5,
+      "freshnessP95": 21,
+      "accepted": 4,
+      "duplicates": 0,
+      "quarantine": 0
+    }
+  },
+  "metric_units": {
+    "sourceLagP95": "seconds",
+    "platformLagP95": "seconds",
+    "freshnessP95": "minutes",
+    "other_metrics": "counts"
+  },
+  "formulas": {
+    "source_delay": "max(0, ingested_at - occurred_at)",
+    "platform_delay": "visible_at - ingested_at",
+    "shipment_freshness": "fixed simulation clock - latest effective occurred_at; excludes delivered shipments",
+    "p95": "sort ascending, select ceil(0.95 * N)th observation",
+    "stale": "active shipment latest effective event age strictly exceeds 30 minutes",
+    "open": "exception state is OPEN or ACKNOWLEDGED"
+  }
+}

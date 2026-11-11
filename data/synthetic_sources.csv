@@ -1,0 +1,5 @@
+source_id,source_name,synthetic,role,interface,heartbeat_at,initial_state,production_contract
+"SOURCE-1","Carrier A","true","carrier transport scans","REST webhook via API adapter","2026-11-11T09:58:00.000Z","CONNECTED","Illustrative only; partner access rights and service terms require validation"
+"SOURCE-2","Warehouse W1","true","warehouse receipt and dispatch scans","warehouse event adapter","2026-11-11T09:58:00.000Z","CONNECTED","Illustrative only; partner access rights and service terms require validation"
+"SOURCE-3","Supplier S1","true","supplier pickup and dispatch events","batch/API adapter","2026-11-11T09:58:00.000Z","CONNECTED","Illustrative only; partner access rights and service terms require validation"
+"SOURCE-4","Customer POD","true","customer proof of delivery","POD status API adapter","2026-11-11T09:58:00.000Z","CONNECTED","Illustrative only; partner access rights and service terms require validation"
